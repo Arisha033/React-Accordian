@@ -8,25 +8,25 @@ function App() {
     <>
       <div className="contacts">
         <Contact
-          img= "../assets/mr-whiskerson.png"
+          img= "./mr-whiskerson.png"
           name= 'Mr. Whiskerson'
           phone= '(212) 555-1234'
           mail= 'mr.whiskaz@catnap.meow'
         />
         <Contact
-          img= '../assets/fluffykins.png'
+          img= './fluffykins.png'
           name= 'Fluffykins'
           phone= '(212) 555-2345'
           mail= 'fluff@me.com'
         />
         <Contact
-          img= '../assets/felix.png'
+          img= './felix.png'
           name= 'Felix'
           phone= '(212) 555-4567'
           mail= 'thecat@hotmail.com'
         />
         <Contact
-          img= '..assets/pumpkin.png'
+          img= './pumpkin.png'
           name= 'Pumpkin'
           phone= '(0800) CAT KING'
           mail= 'pumpkin@scrimba.com'

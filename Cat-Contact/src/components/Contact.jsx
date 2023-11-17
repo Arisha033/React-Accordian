@@ -1,13 +1,12 @@
 import React from 'react'
-import phoneIcon from '../assets/phone-icon.png'
-import mailIcon from '../assets/mail-icon.png'
-import catImage from "../assets/mr-whiskerson.png"
+import phoneIcon from '/phone-icon.png'
+import mailIcon from '/mail-icon.png'
 
 export const Contact = (props) => {
   return (
     <>
         <div className="contact-card">
-            <img src={catImage} alt={props.name} />
+            <img src= {props.img} alt={props.name} />
             <h3>{props.name}</h3>
             <div className="info-group">
                 <img src={phoneIcon} alt='phone-icon' />
@@ -19,5 +18,5 @@ export const Contact = (props) => {
             </div>
         </div>
     </>
-  )
+  ) 
 }
