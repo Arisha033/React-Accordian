@@ -6,6 +6,7 @@ export const Contact = (props) => {
   return (
     <>
         <div className="contact-card">
+          {/* changes in image path */}
             <img src= {props.img} alt={props.name} />
             <h3>{props.name}</h3>
             <div className="info-group">
